@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+		<link rel="stylesheet"  href="./css/jquery.mobile-1.2.0.css" />  
+        <style>
+            /* App custom styles */
+        </style>   
+		<script src="./js/jquery.js"></script>    
+		<script src="./js/jquery.mobile-1.2.0.js"></script>
+		<!-- <script src="./cordova-2.1.0.js"></script> -->
+</head>
+<body>
+<body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="e" data-role="header">
+                <a data-role="button" href="./main.html" data-icon="back" data-iconpos="left" class="ui-btn-left">返回</a>
+                <a data-role="button" href="./main.html" data-icon="home" data-iconpos="right" class="ui-btn-right">首页</a>
+                <h3> 查询</h3>
+                <div >
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <input name="" id="searchinput6" placeholder="输入联系人姓名" value="" type="search" />
+                    </fieldset>
+                </div>
+                <div>
+                  <input type="submit" id="search"  data-theme="e" data-icon="search" data-iconpos="left" value="查询" data-mini="true" />
+                </div>
+            </div>
+            <div data-role="content">
+                	<div class="ui-grid-b" id="contents" >
+					</div >
+					 
+            </div>
+            <script>
+	            //App custom javascript
+	        	var u_name="";
+	        	<!-- 查询全部联系人  -->
+	        	// 等待加载PhoneGap
+	        	document.addEventListener("deviceready", onDeviceReady, false); 
+	        	// PhoneGap加载完毕
+	             function onDeviceReady() {
+	             	var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+	             	db.transaction(queryDB, errorCB);  //调用queryDB查询方法，以及errorCB错误回调方法
+	             }
+	           // 查询数据库
+	         	function queryDB(tx) {
+	         		tx.executeSql('SELECT * FROM myuser', [], querySuccess, errorCB);
+	         	}
+	           // 查询成功后调用的回调函数
+	        	function querySuccess(tx, results) {
+	        		var len = results.rows.length;
+	        		var str="<div class='ui-block-a' style='width:90px;'>姓名</div><div class='ui-block-b'>电话</div><div class='ui-block-c'>拨号</div>";
+	        		console.log("myuser table: " + len + " rows found.");
+	        		for (var i=0; i<len; i++){
+	        			//写入到logcat文件
+	        			str +="<div class='ui-block-a' style='width:90px;'>"+results.rows.item(i).user_name+"</div><div class='ui-block-b'>"+results.rows.item(i).user_phone
+	        			       +"</div><div class='ui-block-c'><a href='tel:"+results.rows.item(i).user_phone+"'  data-role='button' class='ui-btn-right' >拨打 </a></div>";
+	        		}
+	        		$("#contents").html(str);
+	        	}
+	        	// 事务执行出错后调用的回调函数
+	        	function errorCB(err) {
+	        		console.log("Error processing SQL: "+err.code);
+	        	}
+	        	
+	        	<!-- 查询一条数据  -->
+	        	$("#search").click(function(){
+	        		var searchinput6 = $("#searchinput6").val();
+	        		u_name = searchinput6;
+	        		var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+	             	db.transaction(queryDBbyone, errorCB);
+	        	});
+	        	
+	        	function queryDBbyone(tx){
+	        		tx.executeSql("SELECT * FROM myuser where user_name like '%"+u_name+"%'", [], querySuccess, errorCB);
+	        	}
+            </script>
+        </div>
+        
+    </body>
+</html>

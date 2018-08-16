@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/back">
+  
+  <TableRow>
+		<TextView android:id="@+id/timer" android:layout_column="0"
+			android:layout_width="fill_parent" android:layout_height="48px"
+			android:gravity="center_horizontal" android:padding="5dip"
+			android:textColor="#FFFFFF" android:textSize="35sp"
+      android:text=" 0" />
+		<ImageButton android:id="@+id/smiley"
+			android:layout_column="1" android:scaleType="center" android:padding="5dip"
+			android:layout_width="48px" android:background="@drawable/smiley_button_states"
+			android:layout_height="48px" />
+		<TextView android:id="@+id/minecount" android:layout_column="2"
+			android:layout_width="fill_parent" android:layout_height="48px"
+			android:gravity="center_horizontal" android:padding="5dip"
+			android:textColor="#FFFFFF" android:textSize="35sp" android:text="000" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:layout_column="0" android:layout_height="50px"
+			android:layout_width="fill_parent" android:layout_span="3"
+			android:padding="10dip" />
+	</TableRow>
+	
+	<TableRow>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/minefield" android:layout_width="260px"
+			android:layout_height="260px" android:gravity="bottom"
+			android:stretchColumns="*" android:layout_span="3" android:padding="5dip">
+		</TableLayout>
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">193</string> 
+  <string name="app_name">193</string> 
+  <string name="str_button1">开始记录</string> 
+  <string name="str_button2">结束记录</string> 
+  <string name="str_button3">-</string> 
+  <string name="str_button4">+</string> 
+  <string name="str_text1">移动距离：0M</string>
+  <string name="str_message">无法取得位置</string>
+</resources> 

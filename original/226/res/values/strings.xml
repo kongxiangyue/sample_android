@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">example1</string>
+  <string name="app_name">example1</string>
+  <string name="str_qr_gen">二维条码生成器</string>
+  <string name="str_button1">生成二维条形码</string>
+</resources>

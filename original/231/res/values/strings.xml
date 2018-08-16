@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name"></string>
+    <string name="start">洗牌</string>
+    <string name="end">退出</string>
+</resources>

@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>index.html</title> 
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.min.css" />
+	<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jquery.mobile-1.0.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova.js" ></script>
+	<script type="text/javascript" charset="utf-8">	
+	
+	$( function() {
+
+	});
+	$(document).ready(function(){
+	
+		console.log("jquery ready");
+		document.addEventListener("deviceready", onDeviceReady, false);	
+		console.log("register the listener");
+	});
+	
+	function onDeviceReady()
+	{
+		console.log("onDeviceReady");
+		$(".content").html("<ul data-role='listview'><li>"+device.name+"</li><li>"+device.cordova+"</li><li>"+device.platform+"</li><li>"+device.version+"</li><li>"+device.uuid+"</li></ul>");	
+	}
+	
+	
+	</script>
+</head> 
+<body>
+<!-- begin first page -->
+<div id="page1" data-role="page" >
+<header data-role="header"><h1>Hello World</h1></header>
+<div data-role="content" class="content">
+<h3>设备信息</h3>
+
+</ul>
+</div>
+<footer data-role="footer"><h1>Footer</h1></footer>
+</div>
+<!-- end first page -->
+</body>
+</html>

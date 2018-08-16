@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">跋杯游戏</string> 
+  <string name="app_name">220</string> 
+  <string name="str_saint">圣杯</string> 
+  <string name="str_laugh">笑杯</string>
+  <string name="str_bad">阴杯</string>
+</resources> 

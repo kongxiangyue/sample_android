@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<meta charset="utf-8">
+	<title>Forms</title> 
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0;">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" /> 
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script> 
+</head> 
+<body> 
+
+<div data-role="page" data-theme="b">
+	<div data-role="header">
+		<h1>使用选择菜单</h1>
+	</div>
+
+	<div data-role="content">
+	  <form id="test" id="test" action="#" method="post">	
+	  
+	  <br><br> 	  
+		<p>
+			<label for="genre">选择:</label>
+			<select name="genre" id="genre" data-native-menu="false" data-theme="a">
+			  <option value="null">选择一个...</option>
+			  <option value="action">qq</option>
+			  <option value="comedy">ww</option>
+			  <option value="drama">rr</option>
+			  <option value="romance">tt</option>
+				<!-- Alternate placeholder options:
+				<option value="">Select one...</option>
+				<option value=""></option>
+				-->
+</select>
+	 	</p>		
+		<br><br><br><br><br>
+		<p>	
+			<label for="delivery">方式:</label>
+			<select name="delivery" id="delivery" data-native-menu="false" data-theme="d">
+			  <option value="">选择一个...</option>
+			  <option value="barcode">aa</option>
+			  <option value="nfc">bb</option>
+			  <option value="overnight">cc</option>
+			  <option value="express">dd</option>
+			  <option value="ground">ee</option>
+			  <option value="overnight">ff</option>
+			  <option value="express">gg</option>
+			  <option value="standard">hh</option>
+				<optgroup label="Digital">
+					<option value="barcode">E-Ticket</option>
+					<option value="nfc">NFC</option>
+				</optgroup>			
+				<optgroup label="FedEx">
+					<option value="overnight">Overnight</option>
+					<option value="express">Express</option>
+					<option value="ground">Ground</option>
+				</optgroup>
+				<optgroup label="US Mail">
+					<option value="overnight">Overnight</option>
+					<option value="express">Express</option>
+					<option value="standard">Standard</option>
+				</optgroup>			
+			</select>	
+		</p>				
+	  </form>			 			 		 			 
+	</div>
+</div>
+
+</body>
+</html>
+

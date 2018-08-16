@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">200</string>
+  <string name="app_name">200</string>
+  <string name="str_button1">Google 编码</string>
+  <string name="str_text">成都</string>   
+</resources>

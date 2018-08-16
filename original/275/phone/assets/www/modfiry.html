@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="./js/jquery.js"></script>
+</head>
+<body>
+ <!-- Home -->
+      <div data-role="page" id="page1">
+          <div data-theme="e" data-role="header">
+              <a data-role="button"  id="tjlxr" data-theme="e" data-icon="info" data-iconpos="right" class="ui-btn-right">修改</a>
+              <h3>修改联系人 </h3>
+              <a data-role="button"  id="back" data-theme="e"  data-icon="refresh" data-iconpos="left" class="ui-btn-left"> 返回</a>
+          </div>
+          <div data-role="content">
+              <form action="" data-theme="e" >
+                  <div data-role="fieldcontain">
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput1">姓名：<input name="" id="textinput1" placeholder="联系人姓名" value="" type="text" /></label>
+                      </fieldset>
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput2">电话： <input name="" id="textinput2" placeholder="联系人电话" value="" type="tel" /></label>
+                      </fieldset>
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput3">QQ：<input name="" id="textinput3" placeholder="" value="" type="number" /></label>
+                      </fieldset>
+	                  <fieldset data-role="controlgroup" data-mini="true">
+	                      <label for="textinput4">Emai：<input name="" id="textinput4" placeholder="" value="" type="email" /></label>
+	                  </fieldset>
+	                  <fieldset data-role="controlgroup">
+	                      <label for="textarea1"> 备注：</label>
+	                      <textarea name="" id="textarea1" placeholder="" data-mini="true"></textarea>
+	                  </fieldset>
+                  </div>
+              </form>
+             
+          </div>
+          <script type="text/javascript">
+          $.mobile.page.prototype.options.domCache = false; 
+          var textinput1 = "";
+      	  var textinput2 = "";
+      	  var textinput3 = "";
+      	  var textinput4 = "";
+      	  var textarea1  = "";
+      	  var uid = sessionStorage.getItem("uid");
+      	  //========================================================================================
+      	  $("#tjlxr").click(function(){
+           	
+           	 textinput1 =  $("#textinput1").val();
+           	 textinput2 =  $("#textinput2").val();
+           	 textinput3 =  $("#textinput3").val();
+           	 textinput4 =  $("#textinput4").val();
+           	 textarea1  =   $("#textarea1").val();
+             var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+           	 db.transaction(modfiyBD, errorCB);
+           });
+             
+             function modfiyBD(tx){
+            	// alert("UPDATE `myuser`SET  `user_name`='"+textinput1+"',`user_phone`="+textinput2+",`user_qq`="+textinput3
+       			  //    +",`user_email`='"+textinput4+"',`user_bz`='"+textarea1+"' WHERE userid="+uid);
+            	 tx.executeSql("UPDATE `myuser`SET  `user_name`='"+textinput1+"',`user_phone`="+textinput2+",`user_qq`="+textinput3
+            			      +",`user_email`='"+textinput4+"',`user_bz`='"+textarea1+"' WHERE user_id="+uid, [], successCB, errorCB);
+             }
+             
+             //===============================================================================================
+             $("#back").click(function(){
+            	 successCB();
+             });
+             
+             
+             //===================================================
+             
+             document.addEventListener("deviceready", onDeviceReady, false); 
+
+             // PhoneGap加载完毕
+             function onDeviceReady() {
+             	var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+             	db.transaction(selectDB, errorCB);
+             }
+	         
+	        	  
+	         
+	       	function selectDB(tx) {
+	       		//alert("SELECT * FROM myuser where user_id="+uid);
+	       	   tx.executeSql("SELECT * FROM myuser where user_id="+uid, [], querySuccess, errorCB);
+	       	}
+	       	
+	       	// 事务执行出错后调用的回调函数
+	       	function errorCB(tx, err) {
+	       		alert("Error processing SQL: "+err);
+	       	}
+	       	
+	       	// 事务执行成功后调用的回调函数
+	       	function successCB() {
+	       		$.mobile.changePage ('set.html', 'fade', false, false);
+	       	}
+	       	function querySuccess(tx, results) {
+        		var len = results.rows.length;
+        		for (var i=0; i<len; i++){
+        			//写入到logcat文件
+        			//console.log("Row = " + i + " ID = " + results.rows.item(i).user_id + " Data =  " + results.rows.item(i).user_name);
+        			 $("#textinput1").val(results.rows.item(i).user_name);
+                	 $("#textinput2").val(results.rows.item(i).user_phone);
+                	 $("#textinput3").val(results.rows.item(i).user_qq);
+                	 $("#textinput4").val(results.rows.item(i).user_email);
+                	 $("#textarea1").val(results.rows.item(i).user_bz);
+        		}
+
+        	}
+          </script>
+      </div>
+     
+</body>
+</html>

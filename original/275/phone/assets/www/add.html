@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="./js/jquery.js"></script>
+</head>
+<body>
+ <!-- Home -->
+      <div data-role="page" id="page1">
+          <div data-theme="e" data-role="header">
+              <a data-role="button"  id="tjlxr" data-theme="e" data-icon="info" data-iconpos="right" class="ui-btn-right">保存</a>
+              <h3>添加联系人 </h3>
+              <a data-role="button"  id="czlxr" data-theme="e"  data-icon="refresh" data-iconpos="left" class="ui-btn-left"> 重置</a>
+          </div>
+          <div data-role="content">
+              <form action="" data-theme="e" >
+                  <div data-role="fieldcontain">
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput1">姓名：<input name="" id="textinput1" placeholder="联系人姓名" value="" type="text" /></label>
+                      </fieldset>
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput2">电话： <input name="" id="textinput2" placeholder="联系人电话" value="" type="tel" /></label>
+                      </fieldset>
+                      <fieldset data-role="controlgroup" data-mini="true">
+                          <label for="textinput3">QQ：<input name="" id="textinput3" placeholder="" value="" type="number" /></label>
+                      </fieldset>
+	                  <fieldset data-role="controlgroup" data-mini="true">
+	                      <label for="textinput4">Emai：<input name="" id="textinput4" placeholder="" value="" type="email" /></label>
+	                  </fieldset>
+	                  <fieldset data-role="controlgroup">
+	                      <label for="textarea1"> 备注：</label>
+	                      <textarea name="" id="textarea1" placeholder="" data-mini="true"></textarea>
+	                  </fieldset>
+                  </div>
+                  <div>
+                      <a data-role="button"  id="back" data-theme="e" >返回</a>
+                  </div>
+              </form>
+             
+          </div>
+          <script type="text/javascript">
+          $.mobile.page.prototype.options.domCache = false; 
+          var textinput1 = "";
+      	  var textinput2 = "";
+      	  var textinput3 = "";
+      	  var textinput4 = "";
+      	  var textarea1  = "";
+             $("#tjlxr").click(function(){
+            	
+            	 textinput1 =  $("#textinput1").val();
+            	 textinput2 =  $("#textinput2").val();
+            	 textinput3 =  $("#textinput3").val();
+            	 textinput4 =  $("#textinput4").val();
+            	 textarea1  =   $("#textarea1").val();
+            	var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+            	db.transaction(addBD, errorCB);
+             });
+             
+             function addBD(tx){
+            	 tx.executeSql("INSERT INTO `myuser` (`user_name`,`user_phone`,`user_qq`,`user_email`,`user_bz`) VALUES ('"+textinput1+"',"+textinput2+","+textinput3+",'"+textinput4+"','"+textarea1+"')", [], successCB, errorCB);
+             }
+             
+             
+             $("#czlxr").click(function(){
+            	 $("#textinput1").val("");
+            	 $("#textinput2").val("");
+            	 $("#textinput3").val("");
+            	 $("#textinput4").val("");
+            	 $("#textarea1").val("");
+             });
+             $("#back").click(function(){
+            	 successCB();
+             });
+             // 等待加载PhoneGap
+             document.addEventListener("deviceready", onDeviceReady, false); 
+
+             // PhoneGap加载完毕
+             function onDeviceReady() {
+             	var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+             	db.transaction(populateDB, errorCB);
+             }
+	          // 填充数据库
+	       	function populateDB(tx) {
+	       		//tx.executeSql('DROP TABLE IF EXISTS `myuser`');
+	       		tx.executeSql('CREATE TABLE IF NOT EXISTS `myuser` (`user_id` integer primary key autoincrement ,`user_name` VARCHAR( 25 ) NOT NULL ,`user_phone` varchar( 15 ) NOT NULL ,`user_qq` varchar( 15 ) ,`user_email` VARCHAR( 50 ),`user_bz` TEXT)');
+	       		//tx.executeSql("INSERT INTO `myuser` (`user_name`,`user_phone`,`user_qq`,`user_email`,`user_bz`) VALUES ('刘',12222222,222,'nlllllull','null')");
+	       		//tx.executeSql("INSERT INTO `myuser` (`user_name`,`user_phone`,`user_qq`,`user_email`,`user_bz`) VALUES ('张山',12222222,222,'nlllllull','null')");
+	       		//tx.executeSql("INSERT INTO `myuser` (`user_name`,`user_phone`,`user_qq`,`user_email`,`user_bz`) VALUES ('李四',12222222,222,'nlllllull','null')");
+	       		//tx.executeSql("INSERT INTO `myuser` (`user_name`,`user_phone`,`user_qq`,`user_email`,`user_bz`) VALUES ('李四搜索',12222222,222,'nlllllull','null')");
+	       		//tx.executeSql('INSERT INTO DEMO (id, data) VALUES (2, "Second row")');
+	       	}
+	       	
+	       	// 事务执行出错后调用的回调函数
+	       	function errorCB(tx, err) {
+	       		alert("Error processing SQL: "+err);
+	       	}
+	       	
+	       	// 事务执行成功后调用的回调函数
+	       	function successCB() {
+	       		$.mobile.changePage ('set.html', 'fade', false, false);
+	       	}
+          </script>
+      </div>
+     
+</body>
+</html>

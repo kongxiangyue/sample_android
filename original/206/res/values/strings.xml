@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">182</string>
+  <string name="app_name">182</string>
+  <string name="str_button1">点击下载</string>
+  <string name="str_msg">正在下载中....</string>
+  <string name="url">
+  http://www.lrn.cn/zywh/xyyy/yyxs/200805/W020080505536315331317.mp3</string>
+</resources>

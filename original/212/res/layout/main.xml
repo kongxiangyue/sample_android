@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/myLocationText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" >
+    <Button 
+        android:id="@+id/in" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:text="放大" />
+    <Button 
+        android:id="@+id/out" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:text="缩小" />
+</LinearLayout>
+<ToggleButton 
+    android:id="@+id/switchMap"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textOff="卫星视图(关)" 
+    android:textOn="卫星视图(开)"/>
+<com.google.android.maps.MapView
+	android:id="@+id/myMapView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:clickable="true"
+	android:apiKey="0by7ffx8jX0A_LWXeKCMTWAh8CqHAlqvzetFqjQ"
+     />
+</LinearLayout>

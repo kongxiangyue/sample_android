@@ -1,0 +1,59 @@
+<!DOCTYPE html >
+<html>
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet"  href="./css/jquery.mobile-1.2.0.css" />  
+        <style>
+             /* App custom styles */
+        </style>   
+		<script src="./js/jquery.js"></script>    
+		<script src="./js/jquery.mobile-1.2.0.js"></script>
+		<script src="./cordova-2.1.0.js"></script>
+
+</head>
+<body>
+        <!-- Home -->
+        <div data-role="page" id="page1" style="background-image: url(./img/bg.gif);" >
+            <div data-theme="e" data-role="header">         
+                   <h2>电话本管理中心</h2>    
+            </div>
+            <div data-role="content" style="padding-top:200px;">
+                <a data-role="button" data-theme="e" href="./select.html" id="chaxun"  data-icon="search" data-iconpos="left" data-transition="flip">查询</a>
+                <a data-role="button" data-theme="e" href="./set.html" id="guanli"  data-icon="gear" data-iconpos="left"> 管理 </a>
+            </div>
+            <div data-theme="e" data-role="footer" data-position="fixed">
+                <span class="ui-title">免费组织制作v1.0</span>
+            </div>
+            
+             <script type="text/javascript">
+		            //App custom javascript
+		       sessionStorage.setItem("uid","");
+		       
+		        $('#page1').bind('pageshow',function(){
+		        	 $.mobile.page.prototype.options.domCache = false; 
+		         
+		         }); 
+		        // 等待加载PhoneGap
+	             document.addEventListener("deviceready", onDeviceReady, false); 
+
+	             // PhoneGap加载完毕
+	             function onDeviceReady() {
+	             	var db = window.openDatabase("Database", "1.0", "PhoneGap myuser", 200000);
+	             	db.transaction(populateDB, errorCB);
+	             }
+		          // 填充数据库
+		       	function populateDB(tx) {
+		       		tx.executeSql('CREATE TABLE IF NOT EXISTS `myuser` (`user_id` integer primary key autoincrement ,`user_name` VARCHAR( 25 ) NOT NULL ,`user_phone` varchar( 15 ) NOT NULL ,`user_qq` varchar( 15 ) ,`user_email` VARCHAR( 50 ),`user_bz` TEXT)');
+		       		
+		       	}
+		       	
+		       	// 事务执行出错后调用的回调函数
+		       	function errorCB(tx, err) {
+		       		alert("Error processing SQL: "+err);
+		       	}
+		       	
+       		 </script>
+        </div>
+    </body>
+</html>

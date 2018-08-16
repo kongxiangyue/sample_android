@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StoreManagementActivity!</string>
+    <string name="app_name">仓库管理系统</string>
+    <string name="xzgs">选择公司</string>
+    <string name="xzsp">选择商品</string>
+    <string-array name="gsmc"><item >瑞星公司</item><item >瑞星公司</item>
+    <item >aa公司</item>
+    <item >bb公司</item><item >瑞星公司</item>
+    <item >cc公司</item>
+    <item >dd公司</item>
+    <item >ee公司</item>
+    <item >ff公司</item>
+    <item >gg公司</item>
+    <item >hh公司</item>
+    <item >ii公司</item></string-array>
+    <string-array name="spmc"><item >ee软件</item><item >ff软件</item><item >gg软件</item><item >hh软件</item><item >rr软件</item></string-array>
+</resources>

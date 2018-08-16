@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <ImageButton
+  android:id="@+id/LastImageButton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:layout_x="10px"
+  android:layout_y="70px"
+  android:src="@drawable/last"  
+  />
+  <ImageButton
+  android:id="@+id/StopImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:layout_x="200px"
+  android:layout_y="70px"
+  android:src="@drawable/stop" 
+  />  
+  <ImageButton
+  android:id="@+id/StartImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content" 
+  android:layout_x="390px"
+  android:layout_y="70px"
+  android:src="@drawable/start" 
+  />
+  <ImageButton
+  android:id="@+id/PauseImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content" 
+  android:layout_x="580px"
+  android:layout_y="70px" 
+  android:src="@drawable/pause" 
+  />  
+  <ImageButton
+  android:id="@+id/NextImageButton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:layout_x="770px"
+  android:layout_y="70px"
+  android:src="@drawable/next"  
+  />
+  <ListView android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:id="@id/android:list" android:layout_width="fill_parent" android:layout_x="-5dp" android:layout_y="1dp"></ListView>
+</AbsoluteLayout>

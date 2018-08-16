@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">203</string>
+  <string name="app_name">203</string>
+  <string name="str_button1">预览</string>
+  <string name="str_button2">开关</string>
+  <string name="str_take_picture">解码</string>
+</resources>
