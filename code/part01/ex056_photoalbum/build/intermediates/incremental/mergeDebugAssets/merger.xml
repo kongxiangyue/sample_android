@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\code_script\sample_android\code\part01\ex056_photoalbum\src\main\assets"/><source path="E:\code_script\sample_android\code\part01\ex056_photoalbum\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\code_script\sample_android\code\part01\ex056_photoalbum\src\debug\assets"/></dataSet></merger>
