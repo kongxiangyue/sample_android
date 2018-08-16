@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="irdc.example134"
+  android:versionCode="9"
+  android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity android:name="irdc.example134.example134"
+      android:label="@string/app_name">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+    <!-- 建立receiver来聆听系统广播信息 -->
+    <receiver android:name="irdc.example134.SMSreceiver"> 
+    <!-- 设置要捕捉的信息名是provider中Telephony.SMS_RECEIVED -->
+  <intent-filter> 
+    <action 
+      android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+  </intent-filter> 
+  </receiver> 
+    </application>
+<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+</manifest> 

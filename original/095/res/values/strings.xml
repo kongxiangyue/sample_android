@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">改变文字颜色</string>
+  <string name="app_name">087</string>
+  <string name="textview_str">转换</string>
+  <string name="button_str">单击</string>
+</resources>

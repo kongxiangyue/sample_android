@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">081</string>
+  <string name="app_name">081</string>
+  <string name="str_text_view1">对Text1起作用</string>
+  <string name="str_text_view2">对Text2起作用</string>
+</resources>

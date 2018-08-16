@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">101</string>
+  <string name="app_name">101</string>
+  <string name="str_button1">删除</string> 
+  <string name="str_done">删除成功！</string>   
+</resources>

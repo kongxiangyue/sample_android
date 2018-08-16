@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">110</string>
+  <string name="app_name">110</string>
+  <string name="strButton">点击后获取存储卡的容量</string>
+</resources>

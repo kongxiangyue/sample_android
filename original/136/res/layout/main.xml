@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="hello,deng~" />
+	<EditText android:id="@+id/input_et" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:hint="在此输入要保存的文本..." />
+	<Button android:id="@+id/save_btn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="保存"></Button>
+	<Button android:id="@+id/read_btn" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="读取"></Button>
+	<EditText android:id="@+id/showinfo_et" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:editable="false" />
+</LinearLayout>

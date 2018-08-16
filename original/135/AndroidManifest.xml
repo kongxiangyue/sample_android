@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example124">
+	<application android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<provider android:name="com.example124.DiaryContentProvider"
+			android:authorities="com.example124.diarycontentprovider" />
+
+		<activity android:name="example124"
+			android:label="@string/title_diares_list">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.example124.ActivityDiaryEditor"
+			android:theme="@android:style/Theme.Light"
+			android:label="@string/title_diary">
+
+			<intent-filter >
+				<action android:name="com.example124.ActivityDiaryEditor.EDIT_DIARY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+				<data
+					android:mimeType="vnd.android.cursor.item/vnd.google.diary" />
+			</intent-filter>
+
+
+			<intent-filter >
+				<action android:name="com.example124.ActivityDiaryEditor.action.INSERT_DIARY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+				<data
+					android:mimeType="vnd.android.cursor.dir/vnd.google.diary" />
+			</intent-filter>
+
+		</activity>
+
+	</application>
+</manifest>
+

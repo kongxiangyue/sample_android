@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">135</string>
+  <string name="app_name">135</string>
+  <string name="str_button1">获取信息</string> 
+  <string name="str_CALL_STATE_IDLE">待机状态中</string> 
+  <string name="str_CALL_STATE_OFFHOOK">通话中...</string> 
+  <string name="str_CALL_STATE_RINGING">有电话...</string>
+  <string name="str_EmailBody">有电话....</string>
+  <string name="str_message">发信中....</string> 
+</resources>

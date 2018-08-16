@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">168</string> 
+  <string name="app_name">168</string>  
+  <string name="str_list_url1">网易</string>
+  <string name="str_list_url2">搜狐</string>
+  <string name="str_list_url3">雅虎</string>
+  <string name="str_list_url4">新浪</string>
+  <string name="str_url1">http://www.163.com</string>
+  <string name="str_url2">http://www.baidu.com</string>
+  <string name="str_url3">http://www.yahoo.com</string>
+  <string name="str_url4">http://www.sina.com</string>
+</resources> 
+

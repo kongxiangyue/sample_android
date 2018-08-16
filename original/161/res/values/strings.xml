@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="hello">146</string>
+    <string name="app_name">146</string>
+    <string name="str_button1">缩小图像</string>
+    <string name="str_button2">放大图像</string>
+  </resources>

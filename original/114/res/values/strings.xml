@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">106</string>
+  <string name="app_name">106</string>
+  <string name="str_button1">改变方向</string>
+  <string name="str_err_1001">出错了老大！</string>
+  <string name="str_msg1">改为横向显示</string>
+  <string name="str_msg2">改为纵向显示</string>
+</resources>

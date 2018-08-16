@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <EditText android:id="@+id/edit" 
+   android:layout_height="wrap_content" 
+   android:layout_width="match_parent" 
+   android:text="http://b27.photo.store.qq.com/psu?/314a95bb-5cc4-41ea-acec-5d2bb8c74324/YLK9xp3.YMys9BjAT3U2cj33D9lr1BJl0TIL0gVTYCM!/b/YWalJRBZMQAAYsCEHxBiMQAA"></EditText>
+   
+    <Button android:text="下载" android:id="@+id/download_Btn" android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+
+    <Button android:text="显示" android:id="@+id/show_pic" android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    
+    <TextView android:text="下载提示信息" 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

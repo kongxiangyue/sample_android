@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="act1">第一个Activity</string>
+    <string name="act2">第二个Activity</string>
+    <string name="app_name">置换</string>
+  </resources>

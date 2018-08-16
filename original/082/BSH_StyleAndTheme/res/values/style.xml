@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="et1" parent="@android:style/Widget.EditText">
+		<item name="android:background">#1A4EA4</item>
+		<item name="android:textColor">#FFF111</item>
+	</style>
+		<style name="et2" parent="@android:style/Widget.EditText">
+		<item name="android:background">#A6C60F</item>
+		<item name="android:textColor">#EC02C3</item>
+	</style>
+</resources>
+<!--
+说明：
+	这里建立了两种样式，从字面意思上可以看出这两中样式分别都更改了背景颜色和文字颜色
+，一个控件可以更改的属性有很多，这里只改了两个，要改其它的属性，我们要知道属性的name,
+才可以改。那所有的属性的名字在哪呢？找了一番终于找到了，所有的属性的名字在一个attrs.xml
+文件里。这个文件存在于：android sdk目录\data\res\values 目录下，找到这个文件以后我们
+改某些属性时可以做为查看的资料了。
+	上面的两个样式中，都有一个parent属性。这就不难理解style是可以继承的。在这里我们继
+承的是系统默认的EditText属性，只修改了背景和文字颜色而已。那系统的EditText样式是在哪
+定义的呢？找了一番终于也找到了，所有系统控件的样式是在一个style.xml文件中，这个文件也
+在上面说的那个目录下。里面我们可以找到Widget.EditText的样式定义。有了它我们也可以查看
+某一种控件可以更改哪些样式了。
+	在设置style时，我们经常用到@和？@表明引用的的资源是在一个项目或是系统框架中定义过
+的。？表明引用的资源是在当前的主题定义过的。
+	上面的设置背景中的值除了可以是颜色的值外，还可以是一个图片的引用哦~~。
+
+-->

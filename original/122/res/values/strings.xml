@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">114</string>
+  <string name="app_name">114</string>
+  <string name="str_title0">定时自动更换手机桌面背景</string>
+  <string name="str_title1">周日：</string>
+  <string name="str_title2">周一：</string>
+  <string name="str_title3">周二：</string>
+  <string name="str_title4">周三：</string>
+  <string name="str_title5">周四：</string>
+  <string name="str_title6">周五：</string>
+  <string name="str_title7">周六：</string>
+  <string name="str_noset">无设置</string>
+  <string name="str_set">设置</string>
+  <string name="str_button1">启动</string>
+  <string name="str_button2">终止</string>
+  <string name="str_progress">更新中...</string>
+</resources>

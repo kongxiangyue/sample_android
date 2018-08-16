@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">来电黑名单</string>
+    <string name="btnConactText">浏览联系人</string>
+    <string name="btnSetText">设置</string>
+    <string name="btnCancelText">取消设置</string>
+    <string name="contactsTitle">选择联系人</string>
+    <string name="alertTips">设置成功</string>
+    <string name="str_CALL_STATE_IDLE">电话处于待机状态</string>
+    <string name="str_CALL_STATE_OFFHOOK">电话通话中</string> 
+    <string name="str_CALL_STATE_RINGING">有电话来电：</string>
+    <string name="str_msg">静音模式</string>     
+</resources>

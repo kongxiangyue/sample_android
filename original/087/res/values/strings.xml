@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">079</string>
+  <string name="app_name">演示文字置换处理</string>
+  <string name="str_1">这是Resource里的“字符串111”</string>
+  <string name="str_2">“字符串222”</string>
+</resources>

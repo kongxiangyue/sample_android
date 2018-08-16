@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">监听双向短信服务(Service)</string>
+  <string name="app_name">138</string>
+  <string name="str_button1">开始聆听</string>
+  <string name="str_button2">终止聆听</string>
+  <string name="str_service_online">已开始运行</string>
+  <string name="str_service_offline">已终止运行</string>
+  <string name="str_err_stopservicefailed">发生错误，终止Service</string>
+  <string name="str_cmd_sms_catched">拦截到短信KeyWord</string>
+  <string name="str_cmd_sms_sending">发送回发信人的电话：</string>
+  <string name="str_cmd_sms_returned">祝贺你！</string>
+</resources>

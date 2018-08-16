@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">077</string>
+  <string name="app_name">改变背景颜色</string>
+  <string name="str_id">用户名</string>
+  <string name="str_pwd">密 码</string>
+</resources>

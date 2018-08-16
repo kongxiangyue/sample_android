@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">113</string>
+  <string name="app_name">113</string>
+  <string name="str_button1">信息</string>
+  <string name="input">电话号码:</string> 
+  <string name="str_CALL_STATE_IDLE">当前处于待机状态</string> 
+  <string name="str_CALL_STATE_OFFHOOK">通话中...</string> 
+  <string name="str_CALL_STATE_RINGING">有来电...</string>
+  <string name="str_msg">现在是静音模式....</string> 
+</resources>

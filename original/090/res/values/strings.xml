@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">082</string>
+  <string name="app_name">演示响应按钮</string>
+  <string name="str_button1">按我</string>
+</resources>

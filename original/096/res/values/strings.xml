@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">本实例可以改变文本的字体</string>
+  <string name="app_name">088</string>
+  <string name="textview_str">可以改变字体</string>
+  <string name="sizebutton_str">变大</string>
+  <string name="fontbutton_str">转换</string>
+</resources>

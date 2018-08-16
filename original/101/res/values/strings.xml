@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">093</string>
+  <string name="app_name">093</string>
+  <string name="str_button1">单击我</string>
+  <string name="str_alert_title">单击</string>
+  <string name="str_alert_body">你选择了</string>
+  <string name="str_ok">OK</string>
+  <array name="items_irdc_dialog">
+    <item>多媒体</item>
+    <item>游戏</item>
+    <item>网络</item>
+  </array>
+</resources>

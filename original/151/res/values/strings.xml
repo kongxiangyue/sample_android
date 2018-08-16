@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">136</string>
+  <string name="app_name">136</string>
+  <string name="str_mobile_phone">发送号码</string>
+  <string name="str_sms_body">短信内容</string>
+  <string name="str_button1">开始发送</string>
+  <string name="str_sms_sending">正在发送中...</string>
+  <string name="str_sms_sent_success">成功</string>
+  <string name="str_sms_sent_failed">发送</string>
+</resources>

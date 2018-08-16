@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">096</string>
+  <string name="app_name">选择下面的振动模式</string>
+  <string name="str_text1">短时震动</string>
+  <string name="str_text2">长时震动</string>
+  <string name="str_text3">有节奏感震动</string>
+  <string name="str_ok">正在震动中....</string>  
+  <string name="str_end">震动结束了....</string> 
+</resources>

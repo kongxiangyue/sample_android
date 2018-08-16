@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">按下按钮后运行程序</string>
+  <string name="app_name">092</string>
+  <string name="str_button1">按下后开始执行前台运算...</string>
+  <string name="str_dialog_title">等待...</string>
+  <string name="str_dialog_body">正在前台运算...</string>
+  <string name="str_dialog_done">运行完毕！</string>
+</resources>

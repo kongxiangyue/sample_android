@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">175</string> 
+  <string name="app_name">175</string> 
+  <string name="str_text1">声音模式</string> 
+  <string name="str_text2">音量大小</string> 
+</resources>

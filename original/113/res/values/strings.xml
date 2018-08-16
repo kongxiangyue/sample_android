@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">105</string>
+  <string name="app_name">105</string>
+  <string name="str_button1">获取运行的程序</string>
+  <string name="str_err_permission">没有权限！！</string>
+  <string name="str_err_no_running_task">当前无运行程序</string>
+  <string name="str_err_no_running_service">无运行的服务</string>
+</resources>

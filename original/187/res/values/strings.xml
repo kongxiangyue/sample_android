@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">172</string>
+  <string name="app_name">172</string>
+  <string name="str_title">设置RSS连接：</string>
+  <string name="str_button">解析</string>
+</resources>

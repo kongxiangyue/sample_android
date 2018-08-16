@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">095</string>
+  <string name="app_name">095</string>
+  <string name="str_button1">确定</string>
+  <string name="str_text">输入电话/E-mail/网址</string>
+</resources>

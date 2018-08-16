@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, testDbActivity!</string>
+    <string name="app_name">数据库测试</string>
+<string name="ADD">新增</string>
+<string name="EDIT">修改</string>
+<string name="DELETE">删除</string>
+</resources>

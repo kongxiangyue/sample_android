@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">161</string>
+  <string name="app_name">161</string>
+  <string name="app_about">关于我们</string>
+  <string name="app_about_msg">屏保程序～</string>
+  <string name="str_ok">OK</string>
+  <string name="str_exit">quite</string>
+  <string name="str_set_pwd">加密</string>
+  <string name="str_pwd_please">解锁</string>
+</resources>

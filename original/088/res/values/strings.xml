@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">080</string>
+  <string name="app_name">分辨率是：</string>
+</resources>

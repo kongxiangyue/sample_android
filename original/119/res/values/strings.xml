@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">111</string>
+  <string name="app_name">111</string>
+  <string name="app_name_1">example111_1</string>
+  <string name="app_name_2">example111_2</string>
+  <string name="strBtn1">内存</string>
+  <string name="strBtn2">SD卡</string>
+  <string name="strNewMenu">添加</string>
+  <string name="strDeleteMenu">删除</string>
+  <string name="strSaveMenu">保存</string>
+  <string name="strSaveDialog">文件名</string>
+  <string name="str_alert_ok">确定</string> 
+  <string name="str_alert_cancel">取消</string>     
+</resources>

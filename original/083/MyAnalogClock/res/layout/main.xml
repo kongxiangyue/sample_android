@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<com.sky_dreaming.analogic_clock.view.AnalogClock
+	android:id="@+id/analogclock"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+/>
+<com.sky_dreaming.analogic_clock.view.TimerClock
+	android:id="@+id/timerclock"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+/>
+    <DigitalClock
+    android:id="@+id/myAnalogClock01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    />
+</LinearLayout>

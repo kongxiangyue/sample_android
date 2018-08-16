@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">118</string>
+  <string name="app_name">118</string>
+  <string name="str_button1">启动Service</string>
+  <string name="str_button2">停止Service</string>
+</resources>

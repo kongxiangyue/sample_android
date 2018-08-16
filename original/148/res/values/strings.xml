@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">133</string>
+  <string name="app_name">133</string>
+  <string name="str_button">发送</string>
+  <string name="str_msg">成功发送给:</string>
+  <string name="str_text1">国庆节快乐！</string>
+  <string name="str_text2">十一快乐啊!!</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BlackList</string>
+    <string name="btnConactText">Browser Contact</string>
+    <string name="btnSetText">Setting</string>
+    <string name="btnCancelText">Cancel Setting</string>
+    <string name="contactsTitle">Choice Contacts</string>
+    <string name="alertTips">Setting Success</string>
+    <string name="str_CALL_STATE_IDLE">Call State Idle</string>
+    <string name="str_CALL_STATE_OFFHOOK">Call State Offhook</string> 
+    <string name="str_CALL_STATE_RINGING">Call State Ringing</string>
+    <string name="str_msg">Ringer Silent</string>     
+</resources>
