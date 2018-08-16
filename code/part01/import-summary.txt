@@ -6,10 +6,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => ex056_photoalbum\src\main\AndroidManifest.xml
-* assets\ => ex056_photoalbum\src\main\assets
-* res\ => ex056_photoalbum\src\main\res\
-* src\ => ex056_photoalbum\src\main\java\
+* AndroidManifest.xml => ex059_analogclock\src\main\AndroidManifest.xml
+* assets\ => ex059_analogclock\src\main\assets
+* res\ => ex059_analogclock\src\main\res\
+* src\ => ex059_analogclock\src\main\java\
 
 Next Steps:
 -----------

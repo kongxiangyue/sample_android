@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 105,
+                        "endColumn": 40,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 44,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "startOffset": 381,
+                        "endColumn": 42,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 46,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 2,
+                        "startOffset": 520,
+                        "endColumn": 44,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 50,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endColumn": 46,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 2,
+                        "startOffset": 425,
+                        "endColumn": 44,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 45,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 190,
+                        "endColumn": 43,
+                        "endOffset": 231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 51,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 235,
+                        "endColumn": 49,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 49,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 2,
+                        "startOffset": 471,
+                        "endColumn": 47,
+                        "endOffset": 516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 43,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 147,
+                        "endColumn": 41,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 47,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 286,
+                        "endColumn": 45,
+                        "endOffset": 329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 48,
+                    "endOffset": 572
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 2,
+                        "startOffset": 333,
+                        "endColumn": 46,
+                        "endOffset": 377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 577,
+                    "endColumn": 40,
+                    "endOffset": 613
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 89,
+                        "endColumn": 38,
+                        "endOffset": 125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 618,
+                    "endColumn": 37,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "E:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endColumn": 35,
+                        "endOffset": 86
+                    }
+                }
+            }
+        ]
+    }
+]

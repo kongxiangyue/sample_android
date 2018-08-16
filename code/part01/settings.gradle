@@ -1,3 +1,5 @@
 include ':ex052_shoppinglist'
 include ':ex054_changeimage'
 include ':ex056_photoalbum'
+include ':ex058_imgbtn'
+include ':ex059_analogclock'
