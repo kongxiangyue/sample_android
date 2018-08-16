@@ -1,0 +1,150 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .metadata\
+* .metadata\.lock
+* .metadata\.log
+* .metadata\.mylyn\
+* .metadata\.mylyn\.tasks.xml.zip
+* .metadata\.mylyn\repositories.xml.zip
+* .metadata\.mylyn\tasks.xml.zip
+* .metadata\.plugins\
+* .metadata\.plugins\org.eclipse.core.resources\
+* .metadata\.plugins\org.eclipse.core.resources\.root\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index
+* .metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
+* .metadata\.plugins\org.eclipse.core.resources\.root\5.tree
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\
+* .metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+* .metadata\.plugins\org.eclipse.core.runtime\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.ddms.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ant.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.usagedata.recording.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.equinox.p2.ui.sdk.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jst.j2ee.webservice.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.rse.core.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.rse.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.cvs.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
+* .metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.wst.jsdt.ui.prefs
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload0.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload1.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload10.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload11.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload12.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload13.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload14.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload15.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload16.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload17.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload18.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload19.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload2.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload20.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload21.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload22.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload23.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload24.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload25.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload26.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload27.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload28.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload29.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload3.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload4.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload5.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload6.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload7.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload8.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\upload9.csv
+* .metadata\.plugins\org.eclipse.epp.usagedata.recording\usagedata.csv
+* .metadata\.plugins\org.eclipse.jdt.core\
+* .metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps
+* .metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat
+* .metadata\.plugins\org.eclipse.jdt.launching\
+* .metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\
+* .metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
+* .metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ltk.ui.refactoring\
+* .metadata\.plugins\org.eclipse.ltk.ui.refactoring\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.rse.core\
+* .metadata\.plugins\org.eclipse.rse.core\.log
+* .metadata\.plugins\org.eclipse.rse.core\initializerMarks\
+* .metadata\.plugins\org.eclipse.rse.core\initializerMarks\org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark
+* .metadata\.plugins\org.eclipse.rse.core\profiles\
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\FP.local.files_0\
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\FP.local.files_0\node.properties
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\H.local_16\
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\H.local_16\node.properties
+* .metadata\.plugins\org.eclipse.rse.core\profiles\PRF.jerry-pc_3\node.properties
+* .metadata\.plugins\org.eclipse.rse.importexport\
+* .metadata\.plugins\org.eclipse.rse.importexport\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.rse.ui\
+* .metadata\.plugins\org.eclipse.rse.ui\.log
+* .metadata\.plugins\org.eclipse.ui.ide\
+* .metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.intro\
+* .metadata\.plugins\org.eclipse.ui.intro\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\
+* .metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\workbench.xml
+* .metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\baseBrowserLibrary.js
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\browserWindow.js
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\system.js
+* .metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat
+* .metadata\.plugins\org.eclipse.wst.jsdt.ui\
+* .metadata\.plugins\org.eclipse.wst.jsdt.ui\OpenTypeHistory.xml
+* .metadata\.plugins\org.eclipse.wst.jsdt.ui\QualifiedTypeNameHistory.xml
+* .metadata\.plugins\org.eclipse.wst.jsdt.ui\dialog_settings.xml
+* .metadata\version.ini
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => ex054_changeimage\src\main\AndroidManifest.xml
+* assets\ => ex054_changeimage\src\main\assets
+* res\ => ex054_changeimage\src\main\res\
+* src\ => ex054_changeimage\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,2 @@
+include ':ex052_shoppinglist'
+include ':ex054_changeimage'

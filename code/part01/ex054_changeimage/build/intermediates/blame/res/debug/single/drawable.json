@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\build\\intermediates\\res\\merged\\debug\\drawable\\aaa.png",
+        "source": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\src\\main\\res\\drawable\\aaa.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\build\\intermediates\\res\\merged\\debug\\drawable\\left.png",
+        "source": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\src\\main\\res\\drawable\\left.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\build\\intermediates\\res\\merged\\debug\\drawable\\right.png",
+        "source": "E:\\code_script\\sample_android\\code\\part01\\ex054_changeimage\\src\\main\\res\\drawable\\right.png"
+    }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+  <string name="app_name">048</string>
+  <string name="str_title">购物清单</string>
+  <string name="str_checkbox1">电脑</string>
+  <string name="str_checkbox2">手机</string>
+  <string name="str_checkbox3">Android教材一本</string>
+</resources>
