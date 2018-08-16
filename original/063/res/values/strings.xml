@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">059</string>
+  <string name="app_name">059</string>
+  <string name="str_list1">C语言</string>
+  <string name="str_list2">Java</string>
+  <string name="str_list3">JSP </string>
+  <string name="str_list4">C++</string>
+  <string name="str_list5">C#语言</string>
+  <string name="str_list6">PHP</string>
+  <string name="str_list7">Visual Basic</string>
+  <string name="str_list8">ASP.NET</string>
+  <string name="str_menu_list1">课程表1</string>
+  <string name="str_menu_list2">课程2</string>
+</resources>

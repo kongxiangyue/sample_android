@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">example047</string>
+  <string name="app_name">example047</string>
+  <string name="tr_radio_op1">男生</string>
+  <string name="tr_radio_op2">女生</string>
+  <string name="str_radio_question1">请问你是？</string> 
+</resources>

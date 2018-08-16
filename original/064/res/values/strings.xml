@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="hello">060</string>
+    <string name="app_name">060</string>
+    <string name="str_button">换图片</string>
+    <string name="str_text">res/drawable/example060.png</string>
+  </resources>

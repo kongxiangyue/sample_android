@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">049</string>
+    <string name="app_name">049</string>
+    <string name="str_agree">同意</string>
+    <string name="str_go">确定</string>
+    <string name="ok">已经同意了!!</string>
+    <string name="no">*请选择“同意”继续操作*</string>
+    <!-- 空格都是用TAB键做区隔的 -->
+    <string name="text1">尊敬的用户，欢迎您注册成为开心读书会员。在注册前请您仔细阅读如下服务条款：
+本服务协议双方为本网站与本网站用户，本服务协议具有合同效力。
+您确认本服务协议后，本服务协议即在您和本网站之间产生法律效力。请您务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向本网站咨询。
+无论您事实上是否在注册之前认真阅读了本服务协议，只要您点击协议正本下方的"注册"按钮并按照本网站注册程序成功注册为用户，您的行为仍然表示您同意并签署了本服务协议。
+</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:fsms="http://schemas.android.com/apk/res/com.sinxiao.myview"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.sinxiao.view.MyRadioGroup android:id="@+id/radPayOrNot"  android:layout_width="wrap_content" android:layout_height="wrap_content" >
+<com.sinxiao.view.MyRadioButton android:id="@+id/isPayDepositTrue" fsms:value="true"
+      android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/yes" android:textSize="18sp" >
+</com.sinxiao.view.MyRadioButton>
+<com.sinxiao.view.MyRadioButton android:id="@+id/isPayDepositFalse" fsms:value="false"
+      android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/no" android:textSize="18sp" >
+</com.sinxiao.view.MyRadioButton>    
+    </com.sinxiao.view.MyRadioGroup>   
+</LinearLayout>

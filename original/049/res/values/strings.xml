@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+  <string name="app_name">045</string>
+  <string name="str_textview1">使用图片样式</string>
+  <string name="str_button1">使用普通样式</string>
+</resources>

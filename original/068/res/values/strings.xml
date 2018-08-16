@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">064</string>
+	<string name="app_name">实例064</string>
+	<string name="alert_dialog_two_buttons_title">
+		这个实例什么功能呢？
+	</string>
+	<string name="alert_dialog_two_buttons_msg">实例讲解</string>
+	<string name="alert_dialog_two_buttons2_msg">
+		这个实例讲解使用对话框控件Dialog的方法，好好学哈！
+	</string>
+	<string name="alert_dialog_ok">确定</string>
+	<string name="alert_dialog_hide">隐藏</string>
+	<string name="alert_dialog_something">详情</string>
+	<string name="alert_dialog_cancel">取消</string>
+	<string name="alert_dialog_text_entry">输入</string>
+</resources>
