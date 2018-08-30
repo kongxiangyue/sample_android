@@ -1,4 +1,0 @@
-#Thu Aug 30 15:12:05 CST 2018
-base.0=E\:\\code_script\\sample_android\\code\\part02\\_065_menu\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=E\:\\code_script\\sample_android\\code\\part02\\_065_menu\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
