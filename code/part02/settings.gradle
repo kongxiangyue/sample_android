@@ -1,3 +1,6 @@
 
 include ':_065_menu'
 include ':_067_drawer'
+include ':_070_spinner'
+include ':_072_appearance'
+include ':_074_custom'

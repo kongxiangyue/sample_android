@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Thu Aug 16 16:42:23 CST 2018
+1.base=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+4.file=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+1.file=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+4.set=ANDROID_RESOURCE
+2.base=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+count=5
+1.set=DEX
+3.base=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_
+3.file=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.file=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\icon.png
+4.base=E\:\\code_script\\sample_android\\code\\part01\\ex059_analogclock\\build\\intermediates\\res\\resources-debug.ap_

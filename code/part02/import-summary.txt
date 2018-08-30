@@ -14,10 +14,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => _067_drawer\src\main\AndroidManifest.xml
-* assets\ => _067_drawer\src\main\assets
-* res\ => _067_drawer\src\main\res\
-* src\ => _067_drawer\src\main\java\
+* AndroidManifest.xml => _074_custom\src\main\AndroidManifest.xml
+* assets\ => _074_custom\src\main\assets
+* res\ => _074_custom\src\main\res\
+* src\ => _074_custom\src\main\java\
 
 Next Steps:
 -----------

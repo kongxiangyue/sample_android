@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\layout\\single_selection_dialog.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\layout\\single_selection_dialog.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\layout\\list_select_layout.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\layout\\list_select_layout.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\layout\\single_selection_list_item.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\layout\\single_selection_list_item.xml"
+    }
+]

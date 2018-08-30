@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_listitem_selected.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\bg_listitem_selected.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_footer.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\dialog_footer.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\dialog.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_background.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_listitem_default.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\bg_listitem_default.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_listitem_pressed.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\bg_listitem_pressed.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_title.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\dialog_title.xml"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_listitem.xml",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable\\bg_listitem.xml"
+    }
+]

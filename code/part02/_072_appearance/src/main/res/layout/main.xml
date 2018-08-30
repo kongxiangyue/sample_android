@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<RadioButton android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Default radio button style" style="@style/CustomRadioBtn"></RadioButton>
+
+<RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disabled radio button" style="@style/CustomRadioBtn" android:enabled="false" android:checked="true"></RadioButton>
+<RadioButton android:id="@+id/RadioButton03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enabled selected" style="@style/CustomRadioBtn" android:checked="true"></RadioButton>
+<EditText android:id="@+id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/radio_btn_bg" android:text="1234566" android:textColor="#ffffff"></EditText>
+</LinearLayout>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_off_selected.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_off_selected.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_off_pressed.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_off_pressed.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_on.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_on.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header.9.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\header.9.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\footer.9.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\footer.9.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\center.9.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\center.9.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_on_pressed.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_on_pressed.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_off.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_off.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_radio_on_selected.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\btn_radio_on_selected.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_round_more_normal.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\ic_btn_round_more_normal.png"
+    },
+    {
+        "merged": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.9.png",
+        "source": "E:\\code_script\\sample_android\\code\\part02\\_074_custom\\src\\main\\res\\drawable-hdpi\\title.9.png"
+    }
+]
