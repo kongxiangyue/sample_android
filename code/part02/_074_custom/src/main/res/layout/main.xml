@@ -7,5 +7,10 @@
 	<org.lansir.ListSelectView xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:lansir="http://schemas.android.com/apk/res/org.lansir" 
 	 lansir:entries="@array/entries_list_preference" lansir:entryValues="@array/entries_list_preference"
-		android:layout_width="fill_parent" android:layout_height="wrap_content"  android:background="@drawable/bg_listitem"  android:paddingLeft="10dp" android:paddingRight="10dp" android:id="@+id/lsvTest"/>
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_listitem"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:id="@+id/lsvTest"/>
 </LinearLayout>

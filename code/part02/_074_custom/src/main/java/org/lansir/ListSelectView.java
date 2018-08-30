@@ -29,6 +29,7 @@ public class ListSelectView extends LinearLayout implements OnClickListener {
 
 	public ListSelectView(Context context, AttributeSet attrs) {
 		super(context, attrs);
+		//加载xml作为view
 		LayoutInflater.from(context).inflate(R.layout.list_select_layout, this, true);
 		TypedArray a = context.obtainStyledAttributes(attrs, org.lansir.R.styleable.ListSelectView, 0, 0);
 		mEntries = a.getTextArray(org.lansir.R.styleable.ListSelectView_entries);

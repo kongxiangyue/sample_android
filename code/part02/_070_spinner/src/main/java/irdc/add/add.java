@@ -18,7 +18,7 @@ import java.util.List;
 public class add extends Activity
 {
   private static final String[] countriesStr =
-  { "Android¶àÃ½Ìå", "AndroidÍøÂç", "AndroidÇı¶¯", "AndroidÓÎÏ·" };
+  { "Androidå¤šåª’ä½“", "Androidç½‘ç»œ", "Androidé©±åŠ¨", "Androidæ¸¸æˆ" };
   private TextView myTextView;
   private EditText myEditText;
   private Button myButton_add;
@@ -32,7 +32,7 @@ public class add extends Activity
   public void onCreate(Bundle savedInstanceState)
   {
     super.onCreate(savedInstanceState);
-    /* ÔØÈëmain.xml Layout */
+    /* è½½å…¥main.xml Layout */
     setContentView(R.layout.main);
 
     allCountries = new ArrayList<String>();
@@ -41,24 +41,24 @@ public class add extends Activity
       allCountries.add(countriesStr[i]);
     }
 
-    /* new ArrayAdapter¶ÔÏó²¢½«allCountries´«Èë */
+    /* new ArrayAdapterå¯¹è±¡å¹¶å°†allCountriesä¼ å…¥ */
     adapter = new ArrayAdapter<String>(this,
         android.R.layout.simple_spinner_item, allCountries);
     adapter
         .setDropDownViewResource
          (android.R.layout.simple_spinner_dropdown_item);
 
-    /* ÒÔfindViewById()È¡µÃ¶ÔÏó */
+    /* ä»¥findViewById()å–å¾—å¯¹è±¡ */
     myTextView = (TextView) findViewById(R.id.myTextView);
     myEditText = (EditText) findViewById(R.id.myEditText);
     myButton_add = (Button) findViewById(R.id.myButton_add);
     myButton_remove = (Button) findViewById(R.id.myButton_remove);
     mySpinner = (Spinner) findViewById(R.id.mySpinner);
 
-    /* ½«ArrayAdapterÌí¼ÓSpinner¶ÔÏóÖĞ */
+    /* å°†ArrayAdapteræ·»åŠ Spinnerå¯¹è±¡ä¸­ */
     mySpinner.setAdapter(adapter);
 
-    /* ½«myButton_addÌí¼ÓOnClickListener */
+    /* å°†myButton_addæ·»åŠ OnClickListener */
     myButton_add.setOnClickListener(new Button.OnClickListener()
     {
 
@@ -67,7 +67,7 @@ public class add extends Activity
       {
         String newCountry = myEditText.getText().toString();
 
-        /* ÏÈ±È½ÏÌí¼ÓµÄÖµÊÇ·ñÒÑ´æÔÚ£¬²»´æÔÚ²Å¿ÉÌí¼Ó */
+        /* å…ˆæ¯”è¾ƒæ·»åŠ çš„å€¼æ˜¯å¦å·²å­˜åœ¨ï¼Œä¸å­˜åœ¨æ‰å¯æ·»åŠ  */
         for (int i = 0; i < adapter.getCount(); i++)
         {
           if (newCountry.equals(adapter.getItem(i)))
@@ -78,20 +78,20 @@ public class add extends Activity
 
         if (!newCountry.equals(""))
         {
-          /* ½«ÖµÌí¼ÓÖÁadapter */
+          /* å°†å€¼æ·»åŠ è‡³adapter */
           adapter.add(newCountry);
-          /* È¡µÃÌí¼ÓµÄÖµµÄÎ»ÖÃ */
+          /* å–å¾—æ·»åŠ çš„å€¼çš„ä½ç½® */
           int position = adapter.getPosition(newCountry);
-          /* ½«SpinnerÑ¡ÔñÔÚÌí¼ÓµÄÖµµÄÎ»ÖÃ */
+          /* å°†Spinneré€‰æ‹©åœ¨æ·»åŠ çš„å€¼çš„ä½ç½® */
           mySpinner.setSelection(position);
-          /* ½«myEditTextÇå¿Õ */
+          /* å°†myEditTextæ¸…ç©º */
           myEditText.setText("");
         }
 
       }
     });
 
-    /* ½«myButton_removeÌí¼ÓOnClickListener */
+    /* å°†myButton_removeæ·»åŠ OnClickListener */
     myButton_remove.setOnClickListener(new Button.OnClickListener()
     {
       @Override
@@ -99,20 +99,20 @@ public class add extends Activity
       {
         if (mySpinner.getSelectedItem() != null)
         {
-          /* É¾³ımySpinnerµÄÖµ */
+          /* åˆ é™¤mySpinnerçš„å€¼ */
           adapter.remove(mySpinner.getSelectedItem().toString());
-          /* ½«myEditTextÇå¿Õ */
+          /* å°†myEditTextæ¸…ç©º */
           myEditText.setText("");
           if (adapter.getCount() == 0)
           {
-            /* ½«myTextViewÇå¿Õ */
+            /* å°†myTextViewæ¸…ç©º */
             myTextView.setText("");
           }
         }
       }
     });
 
-    /* ½«mySpinnerÌí¼ÓOnItemSelectedListener */
+    /* å°†mySpinneræ·»åŠ OnItemSelectedListener */
     mySpinner.setOnItemSelectedListener
     (new Spinner.OnItemSelectedListener()
     {
@@ -121,7 +121,7 @@ public class add extends Activity
       public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
           long arg3)
       {
-        /* ½«ËùÑ¡mySpinnerµÄÖµ´øÈëmyTextViewÖĞ */
+        /* å°†æ‰€é€‰mySpinnerçš„å€¼å¸¦å…¥myTextViewä¸­ */
         myTextView.setText(arg0.getSelectedItem().toString());
       }
 
